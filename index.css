@@ -17,9 +17,10 @@ body {
   font-size: 1.5em;
 }
 
-#banner .profile-profile {
-  width: 75%;
+#banner .profile-picture {
+  width: 20em;
   height: auto;
+  border-radius: 50%;
 }
 
 #banner .name {
@@ -56,10 +57,10 @@ body {
 
 .projects-listing {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);                
-  margin: 0 auto;
-  width: 80vw;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 40%);                
+  margin: 2em auto;
+  width: 70vw;
   height: 90%;
 }
 
@@ -89,7 +90,7 @@ body {
   width: 100%;
   background: cyan;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 0.5s;
   position: absolute;
   top: 0;
   left: 0;
@@ -109,3 +110,11 @@ body {
   margin-bottom: 1em;
 }
 
+@media only screen and (max-width: 576px) {
+  .projects-listing {
+    grid-template-rows: repeat(5, 50%);
+    grid-template-columns: none;
+    grid-row-gap: 1em;
+    width: 90vw;
+  }
+}
