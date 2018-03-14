@@ -5,7 +5,7 @@ body {
 #home {
   display: grid;
   grid-template-rows: 3fr 1fr;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #banner {
@@ -18,9 +18,10 @@ body {
 }
 
 #banner .profile-picture {
-  width: 20em;
+  width: 50%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 0%;
+  margin-top: 1rem;
 }
 
 #banner .name {
@@ -31,6 +32,7 @@ body {
   color: black;
   font-size: 1.2em;
   transition: transform 0.3s;
+  margin: 0 1rem;
 }
 
 .social-media-links a:hover {
@@ -51,14 +53,13 @@ body {
 }
 
 #portfolio {
-  height: 120vh;
-  padding: 5rem 0;
+  padding-top: 4rem;
 }
 
 .projects-listing {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(3, 40%);                
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 240px);                
   margin: 2em auto;
   width: 70vw;
   height: 90%;
@@ -112,9 +113,15 @@ body {
 
 @media only screen and (max-width: 576px) {
   .projects-listing {
-    grid-template-rows: repeat(5, 50%);
+    grid-template-rows: repeat(5, 240px);
     grid-template-columns: none;
     grid-row-gap: 1em;
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 577px) {
+  .projects-listing {
     width: 90vw;
   }
 }
