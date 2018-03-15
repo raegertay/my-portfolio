@@ -110,6 +110,10 @@ body {
   margin-bottom: 1em;
 }
 
+#contact .row {
+  background-color: lightblue;
+}
+
 @media only screen and (max-width: 576px) {
   .projects-listing {
     grid-template-rows: repeat(5, 240px);
