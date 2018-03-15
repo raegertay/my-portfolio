@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  background-color: #003459;
+  background: linear-gradient(#003459, #02101b)
 }
 
 #home {
@@ -18,7 +18,7 @@ body {
 }
 
 #banner {
-  background-color: #00A8E8;
+  background: linear-gradient(#00A8E8, white);
   margin: 0 -15px;
 }
 
@@ -97,7 +97,7 @@ body {
 .project-overlay {
   height: 100%;
   width: 100%;
-  background: cyan;
+  background: linear-gradient(cyan, white);
   opacity: 0;
   transition: opacity 0.5s;
   position: absolute;
