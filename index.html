@@ -15,6 +15,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="index.css">
 </head>
 
@@ -38,37 +39,69 @@
 
   <div class="container-fluid">
     <section id="home">
-      <div id='banner' class="row">
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
-          <img class="profile-picture" src="./public/images/profile_pic-min.jpg" alt="">
+      <div id="banner" class="d-flex flex-column justify-content-around">
+        <div class="row dummy"></div>
+        <div class="row">
+          <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+            <h1>
+              <span class="curly-bracket">{</span>
+              <span class="name"> Raeger Tay </span>
+              <span class="curly-bracket">}</span>
+            </h1>
+            <p>Full-Stack Web Developer</p>
+            <div class="social-media-links d-flex justify-content-center mb-3">
+              <a href="https://github.com/raegertay" target="_blank">
+                <i class="fab fa-github-alt"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/raegertay/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://twitter.com/raegertay" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="mailto:raegertay89@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-          <h1>
-            <span class="curly-bracket">{</span>
-            <span class="name"> Raeger Tay </span>
-            <span class="curly-bracket">}</span>
-          </h1>
-          <p>Full-Stack Web Developer</p>
-          <div class="social-media-links d-flex justify-content-center mb-3">
-            <a href="https://github.com/raegertay" target="_blank">
-              <i class="fab fa-github-alt"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/raegertay/" target="_blank">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://twitter.com/raegertay" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="mailto:raegertay89@gmail.com">
-              <i class="fas fa-envelope"></i>
-            </a>
+        <div class="row programming-icons justify-content-around text-center">
+          <div class="col-3">
+            <h6>Front-end</h6>
+            <div class="d-flex justify-content-around align-items-center">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-jquery-plain-wordmark colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
+            </div>
+          </div>
+          <div class="col-2">
+            <h6>Version Control</h6>
+            <div class="d-flex justify-content-around align-items-center">
+              <i class="devicon-git-plain-wordmark colored"></i>
+              <i class="devicon-github-plain-wordmark colored"></i>
+            </div>
+          </div>
+          <div class="col-3">
+            <h6>Back-end</h6>
+            <div class="d-flex justify-content-around align-items-center">
+              <i class="devicon-ruby-plain-wordmark colored"></i>
+              <i class="devicon-rails-plain-wordmark colored"></i>
+              <i class="devicon-postgresql-plain-wordmark colored"></i>
+              <i class="devicon-nodejs-plain-wordmark"></i>
+              <i class="devicon-express-original-wordmark colored"></i>
+            </div>
           </div>
         </div>
       </div>
+
       <div id="introduction" class='row justify-content-center pt-2'>
         <div class="col-sm-10 col-md-6 d-flex flex-column justify-content-center align-items-center">
           <h5>Full-Stack Web Developer</h4>
-            <p>Loves programming. Currently a teaching assistant at ALPHA Camp's Web Development bootcamp, and a part-time intern at The New Savvy. Always hungry to learn and constantly seeking to challenge oneself. Believe that nothing is impossible in the world of programming.</p>
+            <p>Loves programming. Currently a teaching assistant at ALPHA Camp's Web Development bootcamp, and a part-time intern
+              at The New Savvy. Always hungry to learn and constantly seeking to challenge oneself. Believe that nothing
+              is impossible in the world of programming.</p>
         </div>
       </div>
     </section>
@@ -89,33 +122,33 @@
         </a>
         <a class="project-item" href="https://github.com/raegertay/shopping-cart" target="_blank">
           <div class="project-item-caption">
-              <h6>PIXIE BY GLOGER</h6>
-              <small>A shopping app that sells cosmetics</small>
-            </div>
+            <h6>PIXIE BY GLOGER</h6>
+            <small>A shopping app that sells cosmetics</small>
+          </div>
           <img class="project-image" src="./public/images/pixie-min.jpg" alt="">
           <div class="project-overlay"></div>
         </a>
         <a class="project-item" href="https://github.com/raegertay/twitter-clone" target="_blank">
           <div class="project-item-caption">
-              <h6>HELLO FRIENDZ</h6>
-              <small>A twitter clone</small>
-            </div>
+            <h6>HELLO FRIENDZ</h6>
+            <small>A twitter clone</small>
+          </div>
           <img class="project-image" src="./public/images/hello_friendz-min.jpg" alt="">
           <div class="project-overlay"></div>
         </a>
         <a class="project-item" href="https://github.com/raegertay/to-do-list" target="_blank">
           <div class="project-item-caption">
-              <h6>TO-DO-LIST</h6>
-              <small>A to-do-list app</small>
-            </div>
+            <h6>TO-DO-LIST</h6>
+            <small>A to-do-list app</small>
+          </div>
           <img class="project-image" src="./public/images/to_do_list-min.jpg" alt="">
           <div class="project-overlay"></div>
         </a>
         <a class="project-item" href="https://github.com/raegertay/reading-list" target="_blank">
           <div class="project-item-caption">
-              <h6>READ FOR LIFE</h6>
-              <small>A reading list app</small>
-            </div>
+            <h6>READ FOR LIFE</h6>
+            <small>A reading list app</small>
+          </div>
           <img class="project-image" src="./public/images/read_for_life-min.jpg" alt="">
           <div class="project-overlay"></div>
         </a>
