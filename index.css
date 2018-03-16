@@ -124,6 +124,10 @@ body {
   color: white;
 }
 
+#contact .my-pic {
+  width: 8em;
+}
+
 #contact svg {
   color: white;
 }
