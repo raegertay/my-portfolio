@@ -8,7 +8,15 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(#003459, #02101b)
+  background: #011627;
+}
+
+.nav-link {
+  color: #FDFFFC !important;
+}
+
+.nav-link:hover {
+  color: #FF9F1C !important;
 }
 
 #home {
@@ -18,12 +26,12 @@ body {
 }
 
 #banner {
-  background: linear-gradient(#00A8E8, white);
+  background: linear-gradient(#FF9F1C, #FDFFFC);
   margin: 0 -15px;
 }
 
 #banner .curly-bracket {
-  color: red;
+  color: #E71D36;
   font-size: 1.5em;
 }
 
@@ -37,7 +45,7 @@ body {
 }
 
 .social-media-links a {
-  color: black;
+  color: #011627;
   font-size: 1.2em;
   transition: transform 0.3s;
   margin: 0 1rem;
@@ -48,20 +56,21 @@ body {
 }
 
 #introduction {
-  background-color: #343A40;
+  background-color: #2EC4B6;
 }
 
 #introduction h5 {
-  color: white;
+  color: #FDFFFC;
 }
 
 #introduction p {
-  color: grey;
+  color: #011627;
   text-align: center;
 }
 
 #portfolio {
   padding-top: 4rem;
+  background-color: #FDFFFC;
 }
 
 .projects-listing {
@@ -97,7 +106,7 @@ body {
 .project-overlay {
   height: 100%;
   width: 100%;
-  background: linear-gradient(cyan, white);
+  background: linear-gradient(#2EC4B6, white);
   opacity: 0;
   transition: opacity 0.5s;
   position: absolute;
@@ -120,8 +129,8 @@ body {
 }
 
 #contact .row {
-  background-color: #222222;
-  color: white;
+  background-color: #011627;
+  color: #FDFFFC;
 }
 
 #contact .my-pic {
@@ -129,7 +138,7 @@ body {
 }
 
 #contact svg {
-  color: white;
+  color: #FDFFFC;
 }
 
 @media only screen and (max-width: 576px) {
