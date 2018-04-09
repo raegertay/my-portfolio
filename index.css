@@ -26,12 +26,12 @@ body {
 }
 
 #banner {
-  background: linear-gradient(#FF9F1C, #FDFFFC);
+  background: linear-gradient(#2EC4B6, #FDFFFC);
   margin: 0 -15px;
 }
 
 #banner .curly-bracket {
-  color: #E71D36;
+  color: #011627;
   font-size: 1.5em;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 #introduction {
-  background-color: #2EC4B6;
+  background-color: #FF9F1C;
 }
 
 #introduction h5 {
